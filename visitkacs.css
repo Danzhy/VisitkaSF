@@ -1,0 +1,89 @@
+body {
+	font-family: Raleway;
+}
+
+main {
+	
+ 	display: flex;
+ 	flex-direction: row;
+ 	justify-content: space-around;
+}
+nav {
+	display: flex;
+	height: 75px;
+	border-bottom: 2px solid black;
+	background-color: #FBBBBB;
+	margin-bottom: 10px;
+	justify-content: center;
+}
+
+.navi {
+	margin: 10px;
+	display: flex;
+	text-decoration: none;
+	align-items: center;
+	color: #000103;
+	font-size: 25px;
+	
+
+}
+
+
+.face {
+	display: flex;
+	padding: 0px;
+	border: 5px solid black;
+}
+
+.right {
+	width: 800px;
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+}
+
+.part {
+	display: grid;
+	grid-template-columns: repeat(3, 200px);
+	grid-template-rows: repeat(2, 100px);
+	text-align: center;
+
+}
+.grid-item {
+	margin: 0px;
+	margin-top: 5px;
+}
+
+.content {
+	margin: 0px;
+	font-size: 20px;
+}
+
+.list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+li {
+	font-size: 20px;
+}
+
+footer {
+	margin-top: 5px;
+	border-top: 2px solid black;
+}
+
+#connect {
+	text-align: center;
+}
+.footer-section {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin: 5px;
+}
+.contact-info {
+	margin-left: 5px;
+}
